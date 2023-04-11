@@ -3,6 +3,8 @@ from .models import Post, Group
 
 
 class PostAdmin(admin.ModelAdmin):
+    """Приложение posts."""
+
     list_display = (
         'pk',
         'text',
